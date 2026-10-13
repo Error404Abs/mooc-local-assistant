@@ -1,0 +1,6 @@
+{
+  "apiBaseUrl": "https://api-cn.mofluxapi.com/v1",
+  "model": "gpt-6.1-sol",
+  "port": 17863,
+  "timeoutMs": 60000
+}

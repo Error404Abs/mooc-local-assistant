@@ -1,0 +1,14 @@
+{
+  "name": "mooc-local-assistant",
+  "version": "1.0.2",
+  "private": true,
+  "description": "Tampermonkey course video question assistant with an authenticated loopback AI service",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/browser.test.cjs tests/server.test.mjs tests/startup.test.mjs"
+  },
+  "devDependencies": { "jsdom": "^26.1.0" }
+}

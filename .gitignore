@@ -1,0 +1,22 @@
+# 本机配置、密钥和题库
+.env
+.env.*
+config.json
+local-data/
+**/pairing-code.txt
+**/answers-cache.json
+*.pem
+*.key
+
+# 依赖、日志和临时文件
+node_modules/
+*.log
+*.tmp
+coverage/
+*.zip
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
